@@ -1,2 +1,3 @@
 # ParathaThaKoe
-ParathaThaKoe - Myanmar game
+ParathaThaKoe(Paratha Theft)
+#whathappeninginmyanmar
