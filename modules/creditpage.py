@@ -17,6 +17,7 @@ def creditpage(pygame, sys, size):
     credit1 = text.render("./img/bomb.png : http://pngimg.com/image/24081", True, text_color)
     credit2 = text.render("./img/MainCharacter.png : From a facebook user/page", True, text_color)
     credit3 = text.render("./img/paratha.jpeg : https://upload.wikimedia.org/wikipedia/commons/f/fc/Alooparatha.jpg", True, text_color)
+    credit4 = text.render("./font/super-legend-boy-font : Super Legend Boy by Chequered Ink from fontspace.com", True, text_color)
 
     # to add more credits add more credit variable here and add more 'screen.blit'
     # credits are 30 y away from each other
@@ -29,6 +30,7 @@ def creditpage(pygame, sys, size):
     screen.blit(credit1, (0, 30)) # x, y
     screen.blit(credit2, (0, 60))
     screen.blit(credit3, (0, 90))
+    screen.blit(credit4, (0, 120))
 
     while True:
         for event in pygame.event.get():
